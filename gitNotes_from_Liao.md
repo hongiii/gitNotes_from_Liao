@@ -112,7 +112,7 @@ $ git rm <file>
 `git rm <file>`相当于执行
 ```bash
 $ rm <file>
-$ git add <file>
+$ git rm <file>
 ```
 #### 进一步的解释
 Q：比如执行了`rm text.txt` 误删了怎么恢复？
