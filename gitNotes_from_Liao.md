@@ -268,3 +268,9 @@ $ git tag -d <tagname>
 ```bash
 $ git push origin :refs/tags/<tagname>
 ```
+#### 删除一个远程分支
+```bash
+$ git checkout master
+$ git branch -d dev
+$ git push origin :dev
+```
