@@ -268,3 +268,7 @@ $ git tag -d <tagname>
 ```bash
 $ git push origin :refs/tags/<tagname>
 ```
+#### 切换到一个标签版本 eg:v1.10.1
+```
+$ git reset --hard <tagname>
+```
